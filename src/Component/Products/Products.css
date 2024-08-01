@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-info {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.product h2 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+.product p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1rem;
+}
